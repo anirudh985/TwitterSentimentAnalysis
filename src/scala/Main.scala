@@ -15,10 +15,10 @@ object Main {
     
     val ssc = new StreamingContext(sc, Seconds(1))
     
-    System.setProperty("twitter4j.oauth.consumerKey", "Hlv1Y4rbBWkKf64y26naovFlP")
-    System.setProperty("twitter4j.oauth.consumerSecret", "wBkFEpEylkPE02vuxiRVXVOTaQmeM2n5oPsat02S24tGzQFicF")
-    System.setProperty("twitter4j.oauth.accessToken", "791735447638638592-xcUTuiFi6K8vwjVD6h05RVdlW3nm8NW")
-    System.setProperty("twitter4j.oauth.accessTokenSecret", "1nBPaIlYc4b6xuMdsdCpTQVSUgje3xT7vN7Sxv3kojAc1")
+    System.setProperty("twitter4j.oauth.consumerKey", "#######################")
+    System.setProperty("twitter4j.oauth.consumerSecret", "#########################################3")
+    System.setProperty("twitter4j.oauth.accessToken", "###############################")
+    System.setProperty("twitter4j.oauth.accessTokenSecret", "###################################")
     
     val stream = TwitterUtils.createStream(ssc, None)
     
